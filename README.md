@@ -29,5 +29,5 @@ Clone this repository and configure the project as a Maven project either import
 
 ### Next Steps
 To use within Copado any custom rule from the [All Custom Rules](#all-custom-rules) table use the following instructions:
-https://docs.copa.do/article/05Ofsiuxmf-custom-pmd-rules-for-static-code-analysis
+https://docs.copa.do/article/89r0hif9tw-custom-pmd-rules-for-static-code-analysis
 
