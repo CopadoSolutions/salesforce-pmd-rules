@@ -4,16 +4,13 @@
 
     <groupId>copado</groupId>
     <artifactId>pmd-apex</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>6.16.1-SNAPSHOT</version>
 
     <properties>
         <java.version>1.8</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <repoId>****</repoId>
-        <repoUrl>****</repoUrl>
-        <snapshotsRepoId>****</snapshotsRepoId>
-        <snapshotsRepoUrl>****</snapshotsRepoUrl>
+
     </properties>
 
     <build>
@@ -37,7 +34,7 @@
         <dependency>
             <groupId>net.sourceforge.pmd</groupId>
             <artifactId>pmd-apex</artifactId>
-            <version>6.0.0</version>
+            <version>6.16.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -55,12 +52,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>${snapshotsRepoId}</id>
-            <url>${snapshotsRepoUrl}</url>
+            <id>copado-snapshots</id>
+            <url>https://front.copa.do/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>${repoId}</id>
-            <url>${repoUrl}</url>
+            <id>copado-release</id>
+            <url>https://front.copa.do/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
