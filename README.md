@@ -25,7 +25,7 @@ Clone this repository and configure the project as a Maven project either import
 
 ### All Custom Rules
 | Rule Name | Rule Description | Source (Company Name)| 
-| --- | --- | --- | 
+| ApexCRUDViolationRuleWithSecurityEnforced | Andreas Dangel Latest PMD Update for With Security Enforced | Kohler | 
 
 ### Next Steps
 To use within Copado any custom rule from the [All Custom Rules](#all-custom-rules) table use the following instructions:
